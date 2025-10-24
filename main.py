@@ -11,8 +11,3 @@ def isOdd(value):
     else:
         return False
 user_input = input("请输入一个数字：")
-try:
-    num = int(user_input)
-    print(isOdd(num))
-except ValueError:
-    print("输入的不是有效的整数！")
